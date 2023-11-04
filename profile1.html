@@ -1,0 +1,151 @@
+<html>
+    <head>
+        <title></title>
+        <style>
+            body{
+                font-family: arial,sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color:darksalmon;
+            }
+            header{
+                background-color:darksalmon
+                color:black;
+                text-align: center;
+                padding: 2rem o;
+                position: relative;
+            }
+            .header-content h1{
+                font-size: 2.5rem;
+            }
+            .profile-picture{
+                width: 100px;
+                height: 90px;
+                border-radius: 75%;
+                object-fit: cover;
+                position: absolute;
+                top: 10px;
+                left: 60px;
+            }
+            nav{
+                background-color:brown;
+                color:black;
+                text-align: center;
+            }
+            nav ul{
+                list-style-type: none;
+                padding: 10px;
+            }
+            nav ul li{
+                display: inline;
+                margin: 0 20px;
+            }
+            nav ul li{
+                text-decoration: none;
+                color:black;
+            }
+            nav ul li a{
+                text-decoration: none;
+                color: black;
+            }
+            .section-content{
+                background-color:black;
+                color:white;
+                padding: 2rem;
+                margin: 1rem;
+                border-radius: 20px;
+                box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            }
+            .download-button{
+                background-color:bisque;
+                color: black;
+                padding: 0.5rem 1rem;
+                text-decoration: none;
+                border-radius: 20px;
+                display: inline-block;
+                margin-top: 10px;
+            }
+            .download-button:hover{
+                background-color: blue;
+            }
+            footer{
+                text-align: center;
+                padding: 1rem 0;
+                background-color: #333;
+                color: #fff;
+            }
+            ul{
+                list-style-type: lower-roman;
+                padding-left: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="header-content">
+                <!--Add your profile picture here-->
+                <img src="./profile/IMG_20220327_145921_746.jpg" picture" class="profile-picture">
+                <h1>Swetha U</h1>
+                <p><b>Becoming a Software Developer</b></p>
+            </div>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#extracurricularactivity">Extra Curricular Activity</a></li>
+                <li><a href="#resume">Resume</a></li>
+            </ul>
+        </nav>
+        <section id="about">
+            <div class="section-content">
+                <h2>About Me</h2>
+                <p>This is my portfolio</p>
+            </div>
+        </section>
+        <section id="education">
+            <div class="section-content">
+                <h2>Education</h2>
+                <h3>HSC</h3>
+                <p>St.Mary's Girls Higher Secondary School</p>
+                <h3>Degree</h3>
+                <p>Now I am studying final year of Bachelor of Computer Application</p>
+            </div>
+        </section>
+        <section id="skills">
+            <div class="section-content">
+                <h2>Skills</h2>
+                <ul>
+                    <li>Python</li><br>
+                    <li>C++</li><br>
+                    <li>HTML</li><br>
+                    <li>CSS</li><br>
+                    <li>JS</li><br>
+                    <li>TypeWriting</li>
+                </ul>
+            </div>
+        </section>
+        <section id="extracurricularactivity">
+            <div class="section-content">
+                <h2>Extra Curricular Activity</h2>
+                <ul>
+                    <li>Listening music</li><br>
+                    <li>Drawing</li><br>
+                    <li>Reading Books</li>
+                </ul>
+            </div>
+        </section>
+        <section id="resume">
+            <center>
+                <div class="section-content">
+                    <h2>Resume</h2>
+                    <a href="resume.pdf"class="download-button">Download</a>
+                </div>
+            </center>
+        </section>
+        <footer>
+            <p>& copy;2023</p>
+        </footer>
+    </body>
+</html>
